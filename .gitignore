@@ -1,0 +1,6 @@
+/src
+/pkg
+/license-tools
+*.rpm
+*.xz
+*.tar
