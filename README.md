@@ -63,6 +63,10 @@ sudo cp /usr/lib/libstdc++.so.6 /opt/1C/v8.3/x86_64/libstdc++.so.6
 sudo ln -s /diskC/Windows/Fonts /usr/share/fonts/WindowsFonts
 ```
 либо копируем шрифты напрямую в каталог */usr/share/fonts/WindowsFonts*
+либо ставим пакет *ttf-ms-fonts*
+``` sh
+sudo pacman -S ttf-ms-fonts
+```
 
 Обновляем кэш шрифтов
 ``` sh
